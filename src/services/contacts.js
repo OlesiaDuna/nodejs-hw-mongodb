@@ -26,17 +26,6 @@ export const getAllContacts = async ({
       .exec(),
   ]);
 
-  // const contactsCount = await contactsCollection
-  //   .find()
-  //   .merge(contactsQuery)
-  //   .countDocuments();
-
-  // const contacts = await contactsQuery
-  //   .skip(skip)
-  //   .limit(limit)
-  //   .sort({ [sortBy]: sortOrder })
-  //   .exec();
-
   const paginationData = calculatePaginationData(contactsCount, perPage, page);
 
   return {
