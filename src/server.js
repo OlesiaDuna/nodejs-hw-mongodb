@@ -14,6 +14,12 @@ export const setupServer = () => {
   app.use(cors());
   app.use(pino({ transport: { target: 'pino-pretty' } }));
   app.use(contactsRouter);
+  app.get('/', (req, res) => {
+    res.status(200).json({
+      status: 200,
+      message: 'Hello! It is a main page',
+    });
+  });
   app.get('*', notFoundHandler);
   app.use(errorHandler);
   app.listen(PORT, () => {
