@@ -1,0 +1,23 @@
+[
+  {
+    "id": "70665cf5-a6c4-4ee6-8040-81f371b12022",
+    "name": "Teresa Pacocha",
+    "phone": "630-500-6440",
+    "email": "Dell_Grant@hotmail.com",
+    "job": "District Functionality Manager"
+  },
+  {
+    "id": "e8878d4e-8089-42d0-8f9c-5207c93dfdb0",
+    "name": "Pat Bartoletti",
+    "phone": "452.494.0748",
+    "email": "Flavio.Strosin@hotmail.com",
+    "job": "Central Usability Architect"
+  },
+  {
+    "id": "20beb32c-5db8-481c-a95f-487bcbe32972",
+    "name": "Lois Frami V",
+    "phone": "(368) 230-2502",
+    "email": "Bryce0@yahoo.com",
+    "job": "Future Security Liaison"
+  }
+]
