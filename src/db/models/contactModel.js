@@ -10,7 +10,9 @@ const contactsSchema = new Schema(
       type: String,
       required: true,
     },
-    email: { type: String },
+    email: {
+      type: String,
+    },
     isFavourite: { type: Boolean, default: false },
     contactType: {
       type: String,
@@ -18,6 +20,7 @@ const contactsSchema = new Schema(
       default: 'personal',
       required: true,
     },
+    userId: { type: Schema.Types.ObjectId, required: true },
   },
   { timestamps: true, versionKey: false },
 );
